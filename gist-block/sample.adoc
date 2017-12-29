@@ -1,0 +1,15 @@
+= My Document
+
+Show how to embed a block into gist and embed url
+
+== Example
+
+This is my script:
+
+[gist, filename=a.java]
+--
+public class A {
+}
+--
+
+And that's all.
