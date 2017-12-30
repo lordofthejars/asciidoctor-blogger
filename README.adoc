@@ -1,0 +1,12 @@
+= Asciidoctor Blogspot
+
+This repo contains a template and an extension that I use to convert AsciiDoc documents to an HTML format that I paste directly to blogspot new post.
+So in this way I can write new articles in AsciiDoc format and then publish them in Blogspot.
+
+* Each of subsection title is wrapped around `<b>` tags.
+* There is an special block called `gist` that takes the content of the block, uploads to gist, and embed the result using `<script>` tag.
+
+To run it:
+
+`asciidoctor -r <repo>/gist-block.rb -T <repo>/slim <document>`
+
