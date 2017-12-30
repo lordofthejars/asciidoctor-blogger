@@ -6,7 +6,8 @@ So in this way I can write new articles in AsciiDoc format and then publish them
 * Each of subsection title is wrapped around `<b>` tags.
 * There is an special block called `gist` that takes the content of the block, uploads to gist, and embed the result using `<script>` tag.
 
+You can see an example at https://raw.githubusercontent.com/lordofthejars/asciidoctor-blogspot/master/gist-block/sample.adoc
+
 To run it:
 
 `asciidoctor -r <repo>/gist-block.rb -T <repo>/slim <document>`
-
